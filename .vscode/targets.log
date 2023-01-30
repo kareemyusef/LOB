@@ -1,0 +1,689 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun Sep 25 22:07:37 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `cs225/make/cs225.mk', line 86)
+ccyellow = $(shell echo -e "\033[0;33m")
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `Makefile', line 2)
+EXE = testavl
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/kareembenaissa/Desktop/LOB
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `.objs/tests/tests.d', line 1)
+MAKEFILE_LIST :=  Makefile cs225/make/cs225.mk .objs/coloredout.d .objs/main.d .objs/cs225/HSLAPixel.d .objs/cs225/PNG.d .objs/cs225/catch/catchmain.d .objs/cs225/lodepng/lodepng.d .objs/tests/tests.d
+# makefile (from `cs225/make/cs225.mk', line 30)
+CXXFLAGS = $(CS225) -std=c++14 -stdlib=libc++ -O0 $(WARNINGS) $(DEPFILE_FLAGS) -g -c
+# makefile (from `cs225/make/cs225.mk', line 70)
+CPP_TEST = $(wildcard tests/*.cpp) cs225/catch/catchmain.cpp
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/anaconda3/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin
+# makefile (from `cs225/make/cs225.mk', line 14)
+LD = clang++
+# makefile (from `Makefile', line 6)
+EXE_OBJ = main.o
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `cs225/make/cs225.mk', line 33)
+LDFLAGS = $(CS225) -std=c++14 -stdlib=libc++ -lc++abi
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.InsPaxVrvx/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `cs225/make/cs225.mk', line 97)
+CLANG_VERSION_MSG = $(warning $(ccyellow) Looks like you are not on EWS. Be sure to test on EWS before the deadline. $(ccend))
+# environment
+CONDA_EXE = /opt/anaconda3/bin/conda
+# makefile (from `cs225/make/cs225.mk', line 85)
+ccred = $(shell echo -e "\033[0;31m")
+# makefile (from `cs225/make/cs225.mk', line 24)
+DEPFILE_FLAGS = -MMD -MP
+# makefile (from `cs225/make/cs225.mk', line 18)
+OBJS = main.o  coloredout.o cs225/HSLAPixel.o cs225/PNG.o cs225/lodepng/lodepng.o
+# environment
+PWD = /Users/kareembenaissa/Desktop/LOB
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/kareembenaissa
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/kareembenaissa/Library/Application Support/Code/CachedData/74b1f979648cc44d385a2286793c226e611f59e7
+# environment
+LOGNAME = kareembenaissa
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 3)
+TEST = test
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = kareembenaissa
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `cs225/make/cs225.mk', line 87)
+ccend = $(shell echo -e "\033[0m")
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/qj/5c6qlmcj7jn6x1w8nb9t12kh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/kareembenaissa/Library/Application Support/Code/1.71.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.8616078689.8616078696
+# makefile (from `cs225/make/cs225.mk', line 15)
+OBJS_DIR = .objs
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `cs225/make/cs225.mk', line 90)
+IS_CORRECT_CLANG = $(shell clang -v 2>&1 | grep "version 6")
+# default
+MAKEFILES := 
+# makefile (from `cs225/make/cs225.mk', line 27)
+WARNINGS = -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function
+# automatic
+<F = $(notdir $<)
+# makefile (from `cs225/make/cs225.mk', line 13)
+CXX = clang++
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /opt/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# makefile (from `cs225/make/cs225.mk', line 71)
+OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
+# makefile (from `cs225/make/cs225.mk', line 89)
+IS_EWS = $(shell hostname | grep "ews.illinois.edu") 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /opt/anaconda3
+# environment
+VSCODE_PID = 55556
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=16/171=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# cs225 (device 16777225, inode 8613590895): No files, no impossibilities so far.
+# cs225/lodepng (device 16777225, inode 8613590906): No files, no impossibilities so far.
+# . (device 16777225, inode 8613590867): 21 files, no impossibilities.
+# .objs (device 16777225, inode 8613590871): 11 files, no impossibilities.
+# .objs/cs225 (device 16777225, inode 8613590874): 9 files, no impossibilities.
+# .objs/cs225/lodepng (device 16777225, inode 8613590881): 4 files, no impossibilities.
+# .objs/cs225/catch (device 16777225, inode 8613590878): 4 files, no impossibilities.
+# .objs/tests (device 16777225, inode 8613590887): 4 files, no impossibilities.
+# tests (device 16777225, inode 8613590910): 3 files, no impossibilities.
+
+# 56 files, no impossibilities in 9 directories.
+
+# Implicit Rules
+
+.objs/%.o: %.cpp | .objs
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+.objs/cs225/PNG.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 21:25:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+cs225/RGB_HSL.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+output_msg:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := output_msg
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/17=24%
+#  commands to execute (from `cs225/make/cs225.mk', line 101):
+	$(CLANG_VERSION_MSG)
+	
+
+# Not a target:
+cs225/lodepng/lodepng.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+cs225/make/cs225.mk:101: -e [0;33m Looks like you are not on EWS. Be sure to test on EWS before the deadline. -e [0m
+
+.objs/tests/tests.o: tests/tests.cpp tests/../cs225/catch/catch.hpp tests/../avltree.h tests/../avltree_given.cpp tests/../printtree.h tests/../avltree.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.objs/main.o: main.cpp main.cpp avltree.h avltree_given.cpp printtree.h avltree.cpp coloredout.h orderQ.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `main'
+#  Last modified 2022-09-09 13:38:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+all: testavl
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+cs225/HSLAPixel.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: all tidy clean output_msg
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.objs/cs225/lodepng/lodepng.o: cs225/lodepng/lodepng.cpp cs225/lodepng/lodepng.cpp cs225/lodepng/lodepng.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `cs225/lodepng/lodepng'
+#  Last modified 2021-10-17 21:25:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# Not a target:
+cs225/HSLAPixel.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+avltree_given.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.objs/cs225/HSLAPixel.o: cs225/HSLAPixel.cpp cs225/HSLAPixel.cpp cs225/HSLAPixel.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `cs225/HSLAPixel'
+#  Last modified 2021-10-17 21:25:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cs225/catch/catch.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.objs/coloredout.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 21:25:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: output_msg .objs/coloredout.o .objs/cs225/HSLAPixel.o .objs/cs225/PNG.o .objs/cs225/lodepng/lodepng.o .objs/tests/tests.o .objs/cs225/catch/catchmain.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 74):
+	$(LD) $(filter-out $<, $^) $(LDFLAGS) -o $@
+	
+
+.objs:
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-19 11:15:57
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 46):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(OBJS_DIR)/cs225
+	@mkdir -p $(OBJS_DIR)/cs225/catch
+	@mkdir -p $(OBJS_DIR)/cs225/lodepng
+	@mkdir -p $(OBJS_DIR)/tests
+	@mkdir -p $(OBJS_DIR)/imageTraversal
+	@mkdir -p $(OBJS_DIR)/colorPicker
+	@mkdir -p $(OBJS_DIR)/cs225/ColorSpace
+	@mkdir -p $(OBJS_DIR)/util
+	
+
+cs225/PNG.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 14:46:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tests/../avltree_given.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+cs225/PNG.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+coloredout.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.objs/cs225/PNG.o: cs225/PNG.cpp cs225/PNG.cpp cs225/lodepng/lodepng.h cs225/PNG.h cs225/HSLAPixel.h cs225/RGB_HSL.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `cs225/PNG'
+#  Last modified 2021-10-17 21:25:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+avltree.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 21:33:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+coloredout.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+orderQ.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 14:48:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+avltree.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 22:43:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.objs/cs225/catch/catchmain.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 21:26:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+testavl: output_msg .objs/main.o .objs/coloredout.o .objs/cs225/HSLAPixel.o .objs/cs225/PNG.o .objs/cs225/lodepng/lodepng.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Last modified 2022-09-09 13:38:43
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := testavl
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := output_msg .objs/main.o .objs/coloredout.o .objs/cs225/HSLAPixel.o .objs/cs225/PNG.o .objs/cs225/lodepng/lodepng.o
+# automatic
+# | := 
+# automatic
+# < := output_msg
+# automatic
+# ^ := output_msg .objs/main.o .objs/coloredout.o .objs/cs225/HSLAPixel.o .objs/cs225/PNG.o .objs/cs225/lodepng/lodepng.o
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/25=4%
+#  commands to execute (from `cs225/make/cs225.mk', line 42):
+	$(LD) $(filter-out $<, $^) $(LDFLAGS) -o $@
+	
+
+ 
+.objs/coloredout.o: coloredout.cpp coloredout.cpp coloredout.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `coloredout'
+#  Last modified 2021-10-17 21:25:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# Not a target:
+tests/tests.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 105):
+	rm -rf $(EXE) $(TEST) $(OBJS_DIR) $(CLEAN_RM) *.o *.d
+	
+
+tests/../avltree.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+printtree.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tests/../cs225/catch/catch.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tidy: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 108):
+	rm -rf doc
+	
+
+# Not a target:
+.objs/tests/tests.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 22:43:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.objs/main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-09-09 13:38:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tests/../avltree.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+cs225/catch/catchmain.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/cs225/lodepng/lodepng.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 21:25:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.objs/cs225/catch/catchmain.o: cs225/catch/catchmain.cpp cs225/catch/catch.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tests/../printtree.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/cs225/HSLAPixel.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 21:25:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+cs225/make/cs225.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+cs225/lodepng/lodepng.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-17 19:54:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=49/1024=5%, Rehash=0, Collisions=4/140=3%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 9
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3913 / max = 3913 / min = 3913 / avg = 3913
+
+# Finished Make data base on Sun Sep 25 22:07:37 2022
+
+ 
