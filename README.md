@@ -49,7 +49,7 @@ I can now place a market buy order. The best buy price is currently 180, with a 
 
 ```c++
 std::cout << "Buying 25 at best market price\n";
-b.market_buy(25)
+b.market_buy(25);
 b.print_levels(10);
 ```
 
@@ -67,7 +67,7 @@ As you can see, buying 25 at 180 didn't affect the book at all. But what if I bu
 
 ```c++
 std::cout << "Buying 25 at best market price\n";
-b.market_buy(25)
+b.market_buy(25);
 b.print_levels(10);
 ```
 
